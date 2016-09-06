@@ -1,12 +1,12 @@
 #!/bin/sh
 SERVICE_NAME=JavaServer
-PATH_TO_JAR=/opt/JavaServer/lib/JavaServer.jar
+PATH_TO_JAR=/opt/JavaServer/lib/JavaServer
 PID_PATH_NAME=/opt/JavaServer/config/JavaServer.pid
 case $1 in
     start)
         echo "Starting $SERVICE_NAME ..."
         if [ ! -f $PID_PATH_NAME ]; then
-            nohup java -jar $PATH_TO_JAR /tmp 2>> /dev/null >> /dev/null &
+            nohup java -Dlog4j.configurationFile=$PATH_TO_JAR/config/log4j2.xml -cp "$PATH_TO_JAR/JavaServer.jar:$PATH_TO_JAR/lib/*" javaserver.JavaServer /tmp 2>> /dev/null >> /dev/null &
                         echo $! > $PID_PATH_NAME
             echo "$SERVICE_NAME started ..."
         else
