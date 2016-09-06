@@ -1,0 +1,19 @@
+2016-09-06 21:38:37,553 [main] INFO   - Starting server on port 8181
+2016-09-06 21:38:52,587 [main] INFO   - Starting server on port 8181
+2016-09-06 21:38:52,621 [main] INFO   - Access server via http://0:0:0:0:0:0:0:0:8181/test
+2016-09-06 21:39:14,248 [Thread-2] INFO   - REQUEST	GET	0:0:0:0:0:0:0:1	[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0]
+2016-09-06 21:39:14,251 [Thread-2] INFO   - RESPONSE	200
+2016-09-06 21:39:16,763 [Thread-2] INFO   - REQUEST	GET	0:0:0:0:0:0:0:1	[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0]
+2016-09-06 21:39:16,764 [Thread-2] INFO   - RESPONSE	200
+2016-09-06 21:40:09,948 [main] INFO   - Starting server on port 8181
+2016-09-06 21:40:09,979 [main] INFO   - Access server via http://0:0:0:0:0:0:0:0:8181/test
+2016-09-06 21:42:07,142 [main] INFO   - Starting server on port 8181
+2016-09-06 21:42:07,175 [main] INFO   - Access server via http://0:0:0:0:0:0:0:0:8181/test
+2016-09-06 21:42:28,644 [main] INFO   - Starting server on port 8181
+2016-09-06 21:42:28,676 [main] INFO   - Access server via http://0:0:0:0:0:0:0:0:8181/test
+2016-09-06 21:43:10,108 [main] INFO   - Starting server on port 8181
+2016-09-06 21:43:10,139 [main] INFO   - Access server via http://127.0.0.1:8181/test
+2016-09-06 21:43:23,682 [Thread-2] INFO   - REQUEST	GET	127.0.0.1	[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0]
+2016-09-06 21:43:23,686 [Thread-2] INFO   - RESPONSE	200
+2016-09-06 21:43:33,405 [Thread-2] INFO   - REQUEST	GET	127.0.0.1	[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0]
+2016-09-06 21:43:33,405 [Thread-2] INFO   - RESPONSE	200
